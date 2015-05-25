@@ -1,6 +1,6 @@
 <head>
   <link rel="stylesheet" href="index.css">
-  <script src="https://code.createjs.com/soundjs-0.6.0.min.js"></script>
+  <script type="text/javascript" src="https://code.createjs.com/soundjs-0.6.0.min.js"></script>
 </head>
 
 <body>
@@ -14,8 +14,7 @@
   <script type="text/javascript">
     //setup a js object matching characters (hashmap keys) to objects containing the sound and image we want to make active (hashmap values)
     var map = {};
-    var background = document.getElementById('background');;
-
+    var background = document.getElementById('background');
 
     //in this case, we assign the character h to an object which contains the horse audio clip, and a url to the image we want to set as the background
     map['h'] = {
